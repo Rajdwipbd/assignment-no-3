@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature"s Platter</title>
+    <!-- daisyUI Cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font family Link   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- font fmaily style  -->
+    <style>
+        .sora-font {
+            font-family: "Sora", serif;
+
+        }
+    </style>
+    <!-- font awesome Icon link  -->
+    <script src="https://kit.fontawesome.com/44c1a58ece.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="sora-font ">
+    <header class=" mb-12 md:mb-[138px] bg-gradient-to-t from-[#EFEBE3] to-white">
+        <!-- navbar section -->
+        <nav class="max-w-[1320px] mx-auto mb-12 md:mb-[90px]">
+            <div class="navbar bg-base-100 md:border-0 border-b border-[#179800] md:py-6">
+                <div class="navbar-start">
+                    <a class="hidden md:block"><img src="images/logo-header.png" alt=""></a>
+                    <a><img class="md:hidden" src="images/Group.png" alt=""></a>
+                </div>
+                <div class="navbar-center  lg:flex hidden">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-xl">Product</a></li>
+                        <li><a class="text-xl">Services</a></li>
+                        <li><a class="text-xl">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class=" space-x-4 flex">
+                        <div class="flex space-x-4 items-center">
+                            <div><i class="hidden text-black md:block fa-solid fa-magnifying-glass "></i></div>
+                            <div><i class="hidden md:block fa-solid fa-cart-shopping"></i></div>
+                        </div>
+                        <div class="flex space-x-5">
+                            <a class="hidden md:block py-4 px-6 text-xl border-2 rounded-lg border-[#179800]">Log in</a>
+                            <a class="hidden md:block py-4 px-6 text-white text-xl bg-[#179800] rounded-lg">Register</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <img src="images/bars-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- banner section -->
+        <div class="w-4/6 mx-auto">
+            <div class="text-center mb-4 md:mb-8 ">
+                <h1 class="text-[32px] md:text-5xl font-semibold mb-4 md:mb-8">Freshness <span
+                        class="text-[#179800]">You Can <br>
+                        Count</span> On, Prices <br class="md:hidden block"> You’ll Love!</h1>
+                <p class="md:text-xl">Shop your daily essentials at unbeatable <br class="block md:hidden"> prices. From
+                    fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+            </div>
+            <div class="flex justify-center">
+                <img class="h-full md:h-full" src="images/hero-vegetables.png" alt="">
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
